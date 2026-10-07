@@ -1,0 +1,3 @@
+@echo off
+echo Connecting to MySQL login_feature_db on 127.0.0.1:3306...
+"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root -proot -h 127.0.0.1 -P 3306 login_feature_db
