@@ -1,0 +1,55 @@
+# Root .gitignore for Login Feature Project
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Java / Maven Backend
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE & Editor Files
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+.sts4-cache
+
+# Secrets & Environment variables (never commit real secrets)
+.env
+.env.local
+.env.*.local
+*.p12
+*.jks
+*.keystore
+
+# Keep example templates
+!.env.example
+!**/.env.example
+
+# Logs & Temporary files
+*.log
+logs/
+temp/
+tmp/
+.cache/
+*.pid
+
+# Local Database runtime data
+database/data/
+**/database/data/
+
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
